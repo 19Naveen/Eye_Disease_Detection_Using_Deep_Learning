@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project leverages machine learning to identify Glaucoma from a set of eye images. The model is built using TensorFlow 2.0 and transfer learning techniques. It utilizes a dataset from a Kaggle competition, consisting of images labeled into different categories.
+This project leverages machine learning to identify Eye_Disease from a set of eye images. The model is built using TensorFlow 2.0 and transfer learning techniques. It utilizes a dataset from a Kaggle competition, consisting of images labeled into different categories.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This project leverages machine learning to identify Glaucoma from a set of eye i
 
 ## Project Description
 
-The objective of this project is to classify images of eyes to detect the presence of Glaucoma. The workflow involves:
+The objective of this project is to classify images of eyes to detect the presence of Eye_Disease. The workflow involves:
 
 1. **Data Preparation**: Downloading and preprocessing the data.
 2. **Model Selection**: Using a pre-trained model from TensorFlow Hub.
@@ -74,7 +74,7 @@ In the provided code, ensure the paths to the dataset are correctly set. If your
 Example code to unzip and check data:
 
 ```python
-!unzip "drive/MyDrive/Data_Science_Project/Glaucoma_Detection/archive.zip" -d "drive/MyDrive/Data_Science_Project/Glaucoma_Detection"
+!unzip "drive/MyDrive/Data_Science_Project/Eye_Disease_Detection/archive.zip" -d "drive/MyDrive/Data_Science_Project/Eye_Disease_Detection"
 print("Completed")
 ```
 
